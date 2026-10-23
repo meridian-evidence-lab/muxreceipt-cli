@@ -1,0 +1,16 @@
+{
+  "name": "@meridian-evidence-lab/muxreceipt-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline audit runner with reproducible input digests and machine-readable exception reports.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test.mjs",
+    "demo": "node demo.mjs"
+  },
+  "exports": "./index.mjs"
+}
